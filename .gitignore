@@ -1,0 +1,18 @@
+.build/
+*.xcodeproj
+.swiftpm/
+DerivedData/
+Package.resolved
+*.xcworkspace
+xcuserdata/
+.DS_Store
+Auswertung/frames/
+Auswertung/fit_*.jpg
+Demo/*.xcodeproj
+Demo/Info.plist
+Demo/DerivedData
+Demo/karte.pmtiles
+# Selbst gebaute Kachelarchive
+# und gehoeren nicht ins Repo — sie sind Ergebnis, nicht Quelle.
+Demo/overture.pmtiles
+build/

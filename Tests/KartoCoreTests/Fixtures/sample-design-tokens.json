@@ -1,0 +1,41 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "brand": {
+    "ink": { "$type": "color", "$value": "#171816" },
+    "paper": { "$type": "color", "$value": "#F4F1E8" },
+    "signalLight": { "$type": "color", "$value": "#E9480D" },
+    "signalDark": { "$type": "color", "$value": "#FF6A2B" },
+    "routeLight": { "$type": "color", "$value": "#7B2FA0" },
+    "routeDark": { "$type": "color", "$value": "#D8A6E2" },
+    "chargeLight": { "$type": "color", "$value": "#0B7563" },
+    "chargeDark": { "$type": "color", "$value": "#5DE1B8" },
+    "alternativeLight": { "$type": "color", "$value": "#9B9992" },
+    "alternativeDark": { "$type": "color", "$value": "#686865" },
+    "navigationArrowForegroundLight": { "$type": "color", "$value": "#171816" },
+    "navigationArrowForegroundDark": { "$type": "color", "$value": "#F4F1E8" },
+    "navigationArrowCasingLight": { "$type": "color", "$value": "#F4F1E8" },
+    "navigationArrowCasingDark": { "$type": "color", "$value": "#171816" }
+  },
+  "spacing": {
+    "xs": { "$type": "dimension", "$value": { "value": 4, "unit": "pt" } },
+    "sm": { "$type": "dimension", "$value": { "value": 8, "unit": "pt" } },
+    "md": { "$type": "dimension", "$value": { "value": 16, "unit": "pt" } },
+    "lg": { "$type": "dimension", "$value": { "value": 24, "unit": "pt" } },
+    "xl": { "$type": "dimension", "$value": { "value": 32, "unit": "pt" } }
+  },
+  "radius": {
+    "control": { "$type": "dimension", "$value": { "value": 14, "unit": "pt" } },
+    "card": { "$type": "dimension", "$value": { "value": 24, "unit": "pt" } },
+    "sheet": { "$type": "dimension", "$value": { "value": 28, "unit": "pt" } }
+  },
+  "route": {
+    "activeWidth": { "$type": "dimension", "$value": { "value": 7, "unit": "pt" } },
+    "casingWidth": { "$type": "dimension", "$value": { "value": 11, "unit": "pt" } },
+    "alternativeWidth": { "$type": "dimension", "$value": { "value": 5, "unit": "pt" } },
+    "navigationArrow": {
+      "turnByTurnSize": { "$type": "dimension", "$value": { "value": 40, "unit": "pt" } },
+      "browseSize": { "$type": "dimension", "$value": { "value": 32, "unit": "pt" } },
+      "minimumSize": { "$type": "dimension", "$value": { "value": 24, "unit": "pt" } }
+    }
+  }
+}
